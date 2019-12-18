@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   
   root "home#index"
-  
+  get 'home/index'
+
   resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.

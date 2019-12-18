@@ -45,5 +45,5 @@ end
 
 gem 'devise'
 
-gem 'rails_admin'
+gem 'rails_admin', github: 'sferik/rails_admin'
 
